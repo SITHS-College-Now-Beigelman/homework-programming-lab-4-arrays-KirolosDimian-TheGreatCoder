@@ -24,7 +24,7 @@ int main ()
 
     return 0;
 }
-
+// Exercise 1
 void filterEvens (int myArray[], int array_Size)
 {
     cout << "The even numbers that you inputted were " << endl;
@@ -34,3 +34,16 @@ void filterEvens (int myArray[], int array_Size)
             cout << myArray [i] << " ";
     }
 }
+
+/*
+Please input a number: 23
+Please input a number: 12
+Please input a number: 53
+Please input a number: 43
+Please input a number: 66
+Please input a number: 24
+Please input a number: 63
+Please input a number: 89
+The even numbers that you inputted were 
+12 66 24
+*/
